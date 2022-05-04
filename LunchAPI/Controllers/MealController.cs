@@ -20,6 +20,7 @@ namespace LunchAPI.Controllers
             _mealRepository = mealRepository;
         }
 
+        // TODO use ActionResult to return 
         [HttpGet]
         public IEnumerable<Meal> GetAll()
         {
@@ -27,6 +28,6 @@ namespace LunchAPI.Controllers
             return _mealRepository.GetAll();
         }
 
-        // TODO Add other Crud Endpoints
+        // TODO Add other CRUD Endpoints
     }
 }

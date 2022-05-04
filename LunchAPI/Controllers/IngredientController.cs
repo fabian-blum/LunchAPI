@@ -6,11 +6,12 @@ namespace LunchAPI.Controllers
     [ApiController]
     public class IngredientController : ControllerBase
     {
+        // TODO Inject Repository to access data
         public IngredientController(ILogger<IngredientController> logger)
         {
 
         }
 
-        // TODO Add other Crud Endpoints
+        // TODO Add other CRUD Endpoints
     }
 }
